@@ -33,7 +33,7 @@ try_a = [15, 3, 9, 8, 12, 6, 2]
 try_b = [10, 9, 8, 7, 6, 5]
 try_c = [5, 6, 7, 8, 9, 10]
 
-actual_try = try_b
+actual_try = try_a #Current test case
 
 res = pick(actual_try)
 
