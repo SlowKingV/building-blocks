@@ -13,7 +13,7 @@ def cipher(msg, shf)
                 new_msg += DIC[i2 - shf].upcase
             end
         end
-        if len == new_msg.length then new_msg += v1 end
+        new_msg += v1 if len == new_msg.length
     end
 
     return new_msg
